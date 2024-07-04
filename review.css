@@ -1,0 +1,141 @@
+
+  
+
+
+
+
+
+
+
+
+
+   .review .review-slider {
+    border: 1px solid;
+    padding: 1.5rem;
+    white-space: nowrap;    
+    overflow-x: auto;     
+    overflow-y: hidden;        
+    scroll-behavior: smooth;
+    
+  }
+  
+  .review .review-slider .wrapper {
+    display: inline-block; 
+    white-space: normal; 
+    padding-left: 20px;
+  }
+  
+  .review .review-slider .box {
+    border: 1px solid black;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    display: inline-block; 
+    vertical-align: top;
+    
+    width: 200px;
+     
+    margin-right: 2rem; 
+    transition: .2s linear;
+    box-shadow: 2px 2px 8px  lightgrey;
+  }
+  
+  .review .review-slider .box img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: initial;
+    padding-top: 2px;
+  }
+  
+  .review .review-slider .box:hover {
+    box-shadow: 1px 1px 10px 4px  #C18D58;
+  }
+  
+  .review .review-slider .box .stars i {
+    color: orange;
+  }
+  
+  .review .review-slider .box p {
+    font-size: .8rem;
+    padding-top: 15px;
+  }
+  
+  .review .review-slider .box h3 {
+    padding-top: 4px;
+  }
+  .review .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+    color: #C18D58;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .review .review-slider {
+      padding: 1rem;
+    }
+  
+    .review .review-slider .box {
+      width: 150px;
+      margin-right: 1rem;
+    }
+  
+    .review .review-slider .box img {
+      height: 90px;
+      width: 90px;
+    }
+  
+    .review .review-slider .box p {
+      font-size: 0.7rem;
+      padding-top: 10px;
+    }
+  
+    .review .heading {
+      font-size: 1.2rem;
+      padding-bottom: 10px;
+    }
+  }
+  
+  /* Media query for screens smaller than 480px */
+  @media screen and (max-width: 480px) {
+    .review .review-slider {
+      padding: 0.5rem;
+    }
+  
+    .review .review-slider .box {
+      width: 120px;
+      margin-right: 0.5rem;
+      /* height: 180px; */
+      
+      
+    }
+  
+    .review .review-slider .box img {
+      height: 70px;
+      width: 70px;
+    }
+  
+    .review .review-slider .box p {
+      font-size: 0.4rem;
+      padding-top: 5px;
+    }
+  
+    .review .heading {
+      font-size: 1rem;
+      padding-bottom: 5px;
+    }
+    .review .review-slider .box h3{
+      font-size: .5rem;
+    }
+    .review .review-slider .box .stars{
+      font-size: 6px;
+    }
+  }
+
+
+
+  
+   
